@@ -1,0 +1,46 @@
+# Source files (only include built dist/ folder)
+src/
+demo/
+reference/
+docs/
+
+# Development files
+*.log
+*.tgz
+.git/
+.gitignore
+.gitmodules
+
+# Config files
+tsconfig.json
+tsup.config.ts
+.prettierrc
+.eslintrc*
+
+# Scripts
+scripts/
+
+# Node modules
+node_modules/
+
+# Build artifacts
+# Note: Source maps are excluded to reduce package size
+# Users can build from source if they need them
+dist/*.map
+
+# Development tools
+.vscode/
+.idea/
+
+# Test files
+*.test.ts
+*.test.tsx
+*.spec.ts
+*.spec.tsx
+__tests__/
+coverage/
+
+# CI/CD
+.github/
+.travis.yml
+.circleci/

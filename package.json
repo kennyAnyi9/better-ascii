@@ -1,0 +1,66 @@
+{
+  "name": "better-ascii-react",
+  "version": "0.1.0",
+  "description": "A React component for rendering ASCII text art with excellent developer experience",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.mts",
+        "default": "./dist/index.mjs"
+      },
+      "require": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      }
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "tsup --watch",
+    "build": "tsup",
+    "test": "jest",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "react",
+    "ascii",
+    "text",
+    "art",
+    "figlet",
+    "component",
+    "typescript",
+    "ascii-art",
+    "react-component",
+    "figlet-fonts",
+    "text-art",
+    "banner"
+  ],
+  "author": "Kennedy Anyi",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kennyAnyi9/better-ascii-react.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kennyAnyi9/better-ascii-react/issues"
+  },
+  "homepage": "https://github.com/kennyAnyi9/better-ascii-react#readme",
+  "peerDependencies": {
+    "react": ">=17.0.0"
+  },
+  "dependencies": {
+    "figlet": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/figlet": "^1.5.6",
+    "@types/react": "^18.2.0",
+    "typescript": "^5.0.2",
+    "tsup": "^8.0.1",
+    "react": "^18.2.0"
+  }
+}

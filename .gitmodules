@@ -1,0 +1,3 @@
+[submodule "reference/original-repo"]
+	path = reference/original-repo
+	url = https://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@github.com/samuelweckstrom/react-ascii-text.git
