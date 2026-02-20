@@ -161,9 +161,6 @@ better-ascii-react/
 │   │   └── animation.ts             # Animation utilities
 │   ├── types.ts                     # Type definitions
 │   └── index.tsx                    # Public API
-├── docs/
-│   └── reverse_engineering/         # Design documentation
-├── MIGRATION.md                     # Migration guide
 └── README.md                        # You are here
 ```
 
@@ -257,12 +254,5 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 MIT
 
-## Links
-
-- [GitHub Repository](https://github.com/kennyAnyi9/better-ascii-react)
-- [Migration Guide](./MIGRATION.md)
-- [NPM Package](https://www.npmjs.com/package/better-ascii-react) (coming soon)
 
 ---
-
-Built with ❤️ by [Kennedy Anyi](https://github.com/kennyAnyi9)
