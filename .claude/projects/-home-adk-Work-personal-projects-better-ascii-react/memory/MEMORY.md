@@ -1,0 +1,1 @@
+- [feedback_no_destructive_without_ask.md](feedback_no_destructive_without_ask.md) - Don't delete files or take destructive actions unless explicitly asked

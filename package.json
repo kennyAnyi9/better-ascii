@@ -1,5 +1,5 @@
 {
-  "name": "better-ascii-react",
+  "name": "better-ascii",
   "version": "0.1.0",
   "description": "A React component for rendering ASCII text art with excellent developer experience",
   "main": "dist/index.js",
@@ -44,12 +44,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kennyAnyi9/better-ascii-react.git"
+    "url": "git+https://github.com/kennyAnyi9/better-ascii.git"
   },
   "bugs": {
-    "url": "https://github.com/kennyAnyi9/better-ascii-react/issues"
+    "url": "https://github.com/kennyAnyi9/better-ascii/issues"
   },
-  "homepage": "https://github.com/kennyAnyi9/better-ascii-react#readme",
+  "homepage": "https://github.com/kennyAnyi9/better-ascii#readme",
   "peerDependencies": {
     "react": ">=17.0.0"
   },

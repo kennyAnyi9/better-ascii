@@ -8,4 +8,11 @@ export default defineConfig({
   clean: true,
   external: ["react"],
   treeshake: true,
+  onSuccess: async () => {
+    const { readFileSync, writeFileSync } = await import("fs");
+    for (const file of ["dist/index.mjs", "dist/index.js"]) {
+      const content = readFileSync(file, "utf-8");
+      writeFileSync(file, `"use client";\n${content}`);
+    }
+  },
 });
