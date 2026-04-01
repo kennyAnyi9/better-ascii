@@ -1,4 +1,6 @@
-# better-ascii
+# Better-ascii
+
+![image](./public/better-ascii.png)
 
 A React component for rendering ASCII text art.
 
