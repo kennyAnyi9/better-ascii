@@ -1,4 +1,4 @@
-# Better-ascii
+# better-ascii
 
 ![image](./public/better-ascii.png)
 
